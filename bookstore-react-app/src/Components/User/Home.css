@@ -1,0 +1,78 @@
+.card-grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+
+}
+
+h1 {
+  margin-top: 2rem;
+  text-align: center;
+  color: beige;
+}
+
+.heart:hover {
+  color: rgb(238, 13, 13);
+}
+
+/* .heart {
+  color: yellow;
+} */
+
+.bag:hover {
+  color: blue
+}
+
+.book:hover {
+  color: green;
+}
+
+.deleteme:hover {
+
+  color: rgb(20, 37, 220)
+}
+
+.deleteme {
+  color: rgb(240, 1, 9);
+
+}
+
+.editme {
+  color: rgb(17, 1, 14)
+}
+
+.editme:hover {
+  color: rgb(44, 207, 8)
+}
+
+.afterliked {
+  color: rgb(81, 255, 0);
+  /* #dc3545 */
+}
+
+.latika {
+  color: #dc3545;
+  background-color: aqua;
+  /* #dc3545 */
+}
+
+.like {
+  color: rgb(227, 68, 68)
+}
+
+.dislike {
+  color: rgb(20, 73, 220)
+}
+
+.like:hover {
+  background-color: rgb(227, 68, 68);
+  color: rgb(217, 229, 241);
+  border-radius: 15px;
+}
+
+.dislike:hover {
+  background-color: rgb(20, 73, 220, 0.24);
+  color: rgb(8, 8, 0);
+  border-radius: 15px;
+}

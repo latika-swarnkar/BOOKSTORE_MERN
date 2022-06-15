@@ -1,0 +1,15 @@
+version: "3.3"
+
+services:
+
+  backend:
+    build: ./Node
+    image: latika25/bookstore-server:v2
+    ports:
+      - 4507:4507
+
+  frontend:
+    build: ./bookstore-react-app
+    image: latika25/bookstore-client:v2
+    ports:
+      - 3000:3000
